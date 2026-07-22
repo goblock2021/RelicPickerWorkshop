@@ -1,41 +1,83 @@
-name: Validate & Merge Submissions
+name: Process Workshop Submissions
 
 on:
-  pull_request:
-    types: [opened, synchronize]
-    branches: [main]
+  issues:
+    types: [opened]
 
 permissions:
   contents: write
-  pull-requests: write
+  issues: write
 
 jobs:
-  validate-and-merge:
+  process:
     runs-on: ubuntu-latest
+    # Only process Issues that contain our markers
+    if: |
+      contains(github.event.issue.body, '[RELICPICKER_SHARE]') ||
+      contains(github.event.issue.body, '[RELICPICKER_DELETE]')
 
     steps:
-      - name: Checkout PR
+      - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 2  # Need HEAD^ for diff
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Validate Submissions
-        id: validate
-        run: python validate_submissions.py
+      - name: Process share submission
+        if: contains(github.event.issue.body, '[RELICPICKER_SHARE]')
+        id: share
+        run: python process_issue.py share
         env:
-          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
 
-      - name: Merge PR
-        if: success()
+      - name: Process delete submission
+        if: contains(github.event.issue.body, '[RELICPICKER_DELETE]')
+        id: delete
+        run: python process_issue.py delete
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+
+      - name: Commit and push
+        if: always() && (steps.share.outcome == 'success' || steps.delete.outcome == 'success')
         run: |
-          gh pr merge ${{ github.event.pull_request.number }} \
-            --squash \
-            --delete-branch \
-            --subject "${{ github.event.pull_request.title }}"
+          git config user.name "RelicPicker Bot"
+          git config user.email "bot@relicpicker.local"
+          git add submissions/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Process workshop submission (Issue #${{ github.event.issue.number }})"
+            git push
+          fi
+
+      - name: Close issue on success
+        if: always() && (steps.share.outcome == 'success' || steps.delete.outcome == 'success')
+        run: |
+          gh issue close ${{ github.event.issue.number }} \
+            --comment "✅ 已处理完成。感谢你的贡献！"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Comment failure on share
+        if: failure() && steps.share.outcome == 'failure'
+        run: |
+          gh issue comment ${{ github.event.issue.number }} \
+            --body "❌ 提交验证失败，请检查格式后重新提交。详情请查看 Actions 日志。"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Comment failure on delete
+        if: failure() && steps.delete.outcome == 'failure'
+        run: |
+          gh issue comment ${{ github.event.issue.number }} \
+            --body "❌ 删除请求失败。可能原因：无权删除他人配置，或配置不存在。详情请查看 Actions 日志。"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
