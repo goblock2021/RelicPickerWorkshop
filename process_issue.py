@@ -24,23 +24,10 @@ SUBMISSIONS_DIR = "submissions"
 FILE_VERSION = 1
 
 # ── Allowed user fields (everything else is stripped) ─────────────
-# These are the ONLY fields accepted from the client submission.
-ALLOWED_FIELDS = {
-    "title",
-    "description",
-    "effects",
-    "shop",
-    "color",
-    "relic_id",
-    "effect_names",
-    "curse_names",
-    "relic_name",
-}
+ALLOWED_FIELDS = {"title", "description", "relics"}
 
-# Schema for user fields (inside the "data" key)
-USER_SCHEMA = {
-    "title": str,
-    "description": str,
+# Schema for a single relic inside the relics array
+RELIC_SCHEMA = {
     "effects": list,
     "shop": str,
     "color": int,
@@ -67,50 +54,51 @@ def extract_json_from_body(body: str) -> str | None:
     match = re.search(r"```json\s*\n(.*?)\n\s*```", body, re.DOTALL)
     if match:
         return match.group(1)
-    # Fallback: try ``` without language tag
     match = re.search(r"```\s*\n(\{.*?\})\s*\n\s*```", body, re.DOTALL)
     if match:
         return match.group(1)
     return None
 
 
+def validate_relic(r: dict, i: int) -> None:
+    """Validate a single relic entry."""
+    for field, ftype in RELIC_SCHEMA.items():
+        if field not in r:
+            fail(f"relics[{i}] 缺少字段 '{field}'")
+        if not isinstance(r[field], ftype):
+            fail(f"relics[{i}].{field} 应为 {ftype.__name__}")
+    if r["shop"] not in VALID_SHOPS and r["shop"] != "unknown":
+        fail(f"relics[{i}] 无效的 shop: '{r['shop']}'")
+    if r["color"] not in {0, 1, 2, 3} and r["color"] != -1:
+        fail(f"relics[{i}] 无效的 color: {r['color']}")
+    for j, e in enumerate(r.get("effects", [])):
+        if not isinstance(e, dict) or "eff_id" not in e:
+            fail(f"relics[{i}].effects[{j}] 缺少 eff_id")
+
+
 def validate_user_data(data: dict) -> None:
-    """Validate user-submitted fields. Fails on invalid."""
-    for field, ftype in USER_SCHEMA.items():
-        if field not in data:
-            fail(f"缺少必填字段 '{field}'")
-        if not isinstance(data[field], ftype):
-            fail(f"字段 '{field}' 应为 {ftype.__name__}，实际为 {type(data[field]).__name__}")
-
-    if data["shop"] not in VALID_SHOPS and data["shop"] != "unknown":
-        fail(f"无效的 shop 值: '{data['shop']}'")
-
-    if data["color"] not in {0, 1, 2, 3} and data["color"] != -1:
-        fail(f"无效的 color 值: {data['color']}")
-
-    for i, e in enumerate(data.get("effects", [])):
-        if not isinstance(e, dict):
-            fail(f"effects[{i}] 必须是对象")
-        if "eff_id" not in e:
-            fail(f"effects[{i}] 缺少 eff_id")
-
+    """Validate user-submitted folder data."""
     if not data.get("title", "").strip():
         fail("title 不能为空")
     if len(data["title"]) > 100:
         fail("title 过长（最多100字符）")
-
     if len(data.get("description", "")) > 500:
         fail("description 过长（最多500字符）")
+    relics = data.get("relics")
+    if not isinstance(relics, list) or len(relics) == 0:
+        fail("relics 必须是非空数组")
+    for i, r in enumerate(relics):
+        if not isinstance(r, dict):
+            fail(f"relics[{i}] 必须是对象")
+        validate_relic(r, i)
 
 
 def process_share():
-    """Handle a share submission Issue."""
     body = os.environ.get("ISSUE_BODY", "")
     issue_author = os.environ.get("ISSUE_AUTHOR", "")
 
     ok(f"处理分享请求 — Issue author: {issue_author}")
 
-    # Extract raw JSON from Issue body
     json_str = extract_json_from_body(body)
     if not json_str:
         fail("无法从 Issue 正文中找到 JSON 数据")
@@ -123,17 +111,16 @@ def process_share():
     if not isinstance(raw, dict):
         fail("JSON 必须是对象")
 
-    # ── Strip unknown / forged fields — only keep ALLOWED_FIELDS ──
+    # Strip unknown / forged fields
     user_data = {}
     for field in ALLOWED_FIELDS:
         if field in raw:
             user_data[field] = raw[field]
 
-    # Validate user data
     validate_user_data(user_data)
-    ok(f"格式验证通过: '{user_data['title']}'")
+    ok(f"格式验证通过: '{user_data['title']}' ({len(user_data['relics'])} 个遗物)")
 
-    # ── Auto-generate management fields ──
+    # Auto-generate management fields
     submission_id = str(uuid_module.uuid4())
     now = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 
@@ -146,7 +133,6 @@ def process_share():
         "data": user_data,
     }
 
-    # ── Write file ──
     sp = Path(SUBMISSIONS_DIR)
     sp.mkdir(parents=True, exist_ok=True)
     filepath = sp / f"{submission_id}.json"
@@ -157,21 +143,16 @@ def process_share():
 
 
 def process_delete():
-    """Handle a delete submission Issue."""
     body = os.environ.get("ISSUE_BODY", "")
     issue_author = os.environ.get("ISSUE_AUTHOR", "")
 
     ok(f"处理删除请求 — Issue author: {issue_author}")
 
-    # Extract submission_id from body
     match = re.search(r"submission_id:\s*`?([a-f0-9-]{36})`?", body)
     if not match:
         fail("无法从 Issue 中找到 submission_id")
 
     submission_id = match.group(1)
-    ok(f"submission_id: {submission_id}")
-
-    # Load the file
     filepath = Path(SUBMISSIONS_DIR) / f"{submission_id}.json"
     if not filepath.exists():
         fail(f"配置不存在: {submission_id}.json")
@@ -182,14 +163,10 @@ def process_delete():
     except json.JSONDecodeError as e:
         fail(f"无法读取配置: {e}")
 
-    # Author verification — read from top-level (management field, cannot be forged)
     file_author = submission.get("author", "")
     if file_author.lower() != issue_author.lower():
         fail(f"无权删除 — 配置作者是 '{file_author}'，但 Issue 作者是 '{issue_author}'")
 
-    ok("删除授权验证通过")
-
-    # Delete the file
     filepath.unlink()
     ok(f"已删除: {filepath}")
 
@@ -197,7 +174,6 @@ def process_delete():
 def main():
     if len(sys.argv) < 2:
         fail("用法: python process_issue.py <share|delete>")
-
     action = sys.argv[1]
     if action == "share":
         process_share()
@@ -205,7 +181,6 @@ def main():
         process_delete()
     else:
         fail(f"未知操作: {action}")
-
     print("\n✅ 处理完成")
 
 
