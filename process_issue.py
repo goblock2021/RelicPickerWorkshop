@@ -39,9 +39,18 @@ RELIC_SCHEMA = {
 
 VALID_SHOPS = {"normal-old", "normal-new", "deep-old", "deep-new"}
 
+# Track which operation is running, so fail() knows whether to exit cleanly
+_operation: str | None = None
+
 
 def fail(msg: str):
     print(f"❌ ERROR: {msg}")
+    if _operation in ("share", "delete"):
+        output_file = os.environ.get("GITHUB_OUTPUT")
+        if output_file:
+            with open(output_file, "a") as f:
+                f.write(f"{_operation}_result=failure\n")
+        sys.exit(0)
     sys.exit(1)
 
 
@@ -94,6 +103,8 @@ def validate_user_data(data: dict) -> None:
 
 
 def process_share():
+    global _operation
+    _operation = "share"
     body = os.environ.get("ISSUE_BODY", "")
     issue_author = os.environ.get("ISSUE_AUTHOR", "")
 
@@ -141,8 +152,15 @@ def process_share():
 
     ok(f"已写入: {filepath}")
 
+    output_file = os.environ.get("GITHUB_OUTPUT")
+    if output_file:
+        with open(output_file, "a") as f:
+            f.write("share_result=success\n")
+
 
 def process_delete():
+    global _operation
+    _operation = "delete"
     body = os.environ.get("ISSUE_BODY", "")
     issue_author = os.environ.get("ISSUE_AUTHOR", "")
 
@@ -169,6 +187,11 @@ def process_delete():
 
     filepath.unlink()
     ok(f"已删除: {filepath}")
+
+    output_file = os.environ.get("GITHUB_OUTPUT")
+    if output_file:
+        with open(output_file, "a") as f:
+            f.write("delete_result=success\n")
 
 
 def main():

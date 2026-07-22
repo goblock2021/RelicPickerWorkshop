@@ -58,26 +58,28 @@ jobs:
             git push
           fi
 
-      - name: Close issue on success
-        if: always() && (steps.share.outcome == 'success' || steps.delete.outcome == 'success')
+      - name: Close share issue
+        if: always() && steps.share.outcome == 'success'
         run: |
-          gh issue close ${{ github.event.issue.number }} \
-            --comment "✅ 已处理完成。感谢你的贡献！"
+          if [ "${{ steps.share.outputs.share_result }}" = "success" ]; then
+            gh issue close ${{ github.event.issue.number }} \
+              --comment "✅ 已处理完成。感谢你的贡献！"
+          else
+            gh issue close ${{ github.event.issue.number }} \
+              --comment "❌ 提交验证失败，请检查格式后重新提交。详情请查看 Actions 日志。"
+          fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Comment failure on share
-        if: failure() && steps.share.outcome == 'failure'
+      - name: Close delete issue
+        if: always() && steps.delete.outcome == 'success'
         run: |
-          gh issue comment ${{ github.event.issue.number }} \
-            --body "❌ 提交验证失败，请检查格式后重新提交。详情请查看 Actions 日志。"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Comment failure on delete
-        if: failure() && steps.delete.outcome == 'failure'
-        run: |
-          gh issue comment ${{ github.event.issue.number }} \
-            --body "❌ 删除请求失败。可能原因：无权删除他人配置，或配置不存在。详情请查看 Actions 日志。"
+          if [ "${{ steps.delete.outputs.delete_result }}" = "success" ]; then
+            gh issue close ${{ github.event.issue.number }} \
+              --comment "✅ 已处理完成。感谢你的贡献！"
+          else
+            gh issue close ${{ github.event.issue.number }} \
+              --comment "❌ 删除请求失败。可能原因：无权删除他人配置，或配置不存在。详情请查看 Actions 日志。"
+          fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
