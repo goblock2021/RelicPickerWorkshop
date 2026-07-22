@@ -1,0 +1,126 @@
+{
+  "id": "7d44a52f-76c2-44ed-b97a-6352c4d8ceb7",
+  "author": "goblock2021",
+  "created_at": "2026-07-22T13:13:30Z",
+  "version": 1,
+  "issue_number": 8,
+  "data": {
+    "description": "",
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 6610802,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6631800,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2010002,
+        "effect_names": [
+          "提升属性攻击力＋２",
+          "通过潜在能力，能比较容易找到镰刀",
+          "打倒敌人时，能累积绝招量表"
+        ],
+        "curse_names": [
+          "使用圣杯瓶时，降低减伤率"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6500000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6840100
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2011002,
+        "effect_names": [
+          "提升物理攻击力＋４",
+          "【追踪者】技艺会附加引发异常状态出血的效果",
+          "提升血量上限"
+        ],
+        "curse_names": [
+          "使用圣杯瓶时，降低减伤率",
+          "降低圣杯瓶恢复量"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6610802,
+            "curse_id": 6820100
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6820000
+          },
+          {
+            "eff_id": 6005601,
+            "curse_id": 6820300
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2012102,
+        "effect_names": [
+          "提升属性攻击力＋２",
+          "提升血量上限",
+          "受到损伤的当下，能通过攻击恢复部分血量＋２"
+        ],
+        "curse_names": [
+          "受到损伤时，会累积猩红腐败量表",
+          "受到损伤时，会累积中毒量表",
+          "受到损伤时，会累积出血量表"
+        ],
+        "relic_name": "辽阔的水滴暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7033200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7122900,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "【追踪者】技艺的使用次数＋１",
+          "出击时，武器战技改为“炎击” ※仅限能使用的武器类别",
+          "每次打倒黑夜入侵者，能提升攻击力"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      }
+    ],
+    "title": "测试2"
+  }
+}
