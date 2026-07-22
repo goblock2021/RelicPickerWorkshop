@@ -178,6 +178,7 @@ def process_share():
         "author": issue_author,
         "created_at": now,
         "version": FILE_VERSION,
+        "issue_number": int(os.environ.get("ISSUE_NUMBER", 0)),
         "data": user_data,
     }
 
