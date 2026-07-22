@@ -16,14 +16,29 @@ import json
 import os
 import re
 import sys
+import time
+import uuid as uuid_module
 from pathlib import Path
 
 SUBMISSIONS_DIR = "submissions"
+FILE_VERSION = 1
 
-# Required fields and their types
-SCHEMA = {
-    "id": str,
-    "author": str,
+# ── Allowed user fields (everything else is stripped) ─────────────
+# These are the ONLY fields accepted from the client submission.
+ALLOWED_FIELDS = {
+    "title",
+    "description",
+    "effects",
+    "shop",
+    "color",
+    "relic_id",
+    "effect_names",
+    "curse_names",
+    "relic_name",
+}
+
+# Schema for user fields (inside the "data" key)
+USER_SCHEMA = {
     "title": str,
     "description": str,
     "effects": list,
@@ -33,7 +48,6 @@ SCHEMA = {
     "effect_names": list,
     "curse_names": list,
     "relic_name": str,
-    "created_at": str,
 }
 
 VALID_SHOPS = {"normal-old", "normal-new", "deep-old", "deep-new"}
@@ -49,7 +63,7 @@ def ok(msg: str):
 
 
 def extract_json_from_body(body: str) -> str | None:
-    """Extract JSON string from between ```json ... ``` markers in the Issue body."""
+    """Extract JSON string from between ```json ... ``` markers."""
     match = re.search(r"```json\s*\n(.*?)\n\s*```", body, re.DOTALL)
     if match:
         return match.group(1)
@@ -60,9 +74,9 @@ def extract_json_from_body(body: str) -> str | None:
     return None
 
 
-def validate_submission(data: dict, filename: str) -> None:
-    """Validate submission JSON against schema. Fails on invalid."""
-    for field, ftype in SCHEMA.items():
+def validate_user_data(data: dict) -> None:
+    """Validate user-submitted fields. Fails on invalid."""
+    for field, ftype in USER_SCHEMA.items():
         if field not in data:
             fail(f"缺少必填字段 '{field}'")
         if not isinstance(data[field], ftype):
@@ -88,23 +102,18 @@ def validate_submission(data: dict, filename: str) -> None:
     if len(data.get("description", "")) > 500:
         fail("description 过长（最多500字符）")
 
-    # Filename must match id
-    expected = f"{data['id']}.json"
-    if filename != expected:
-        fail(f"文件名应为 {expected}，但数据中 id 为 {data['id']}")
 
-
-def submission_key(sub: dict) -> tuple:
-    """Generate a dedup key for a submission."""
+def submission_key(data: dict) -> tuple:
+    """Generate a dedup key from user data."""
     eff_key = tuple(
         (e.get("eff_id"), e.get("curse_id"))
-        for e in sorted(sub.get("effects", []), key=lambda x: x.get("eff_id", 0))
+        for e in sorted(data.get("effects", []), key=lambda x: x.get("eff_id", 0))
     )
-    return (eff_key, sub.get("shop"), sub.get("color"), sub.get("relic_id"))
+    return (eff_key, data.get("shop"), data.get("color"), data.get("relic_id"))
 
 
 def load_all_submissions() -> dict[str, dict]:
-    """Load all existing submissions into a dict {id: data}."""
+    """Load all existing submissions into a dict {id: full_submission}."""
     result = {}
     sp = Path(SUBMISSIONS_DIR)
     if not sp.exists():
@@ -127,46 +136,57 @@ def process_share():
 
     ok(f"处理分享请求 — Issue author: {issue_author}")
 
-    # Extract JSON from Issue body
+    # Extract raw JSON from Issue body
     json_str = extract_json_from_body(body)
     if not json_str:
         fail("无法从 Issue 正文中找到 JSON 数据")
 
     try:
-        data = json.loads(json_str)
+        raw = json.loads(json_str)
     except json.JSONDecodeError as e:
         fail(f"JSON 解析失败: {e}")
 
-    submission_id = data.get("id", "unknown")
-    filename = f"{submission_id}.json"
+    if not isinstance(raw, dict):
+        fail("JSON 必须是对象")
 
-    # Validate schema
-    validate_submission(data, filename)
-    ok(f"格式验证通过: '{data['title']}' by {data['author']}")
+    # ── Strip unknown / forged fields — only keep ALLOWED_FIELDS ──
+    user_data = {}
+    for field in ALLOWED_FIELDS:
+        if field in raw:
+            user_data[field] = raw[field]
 
-    # Check for duplicates
+    # Validate user data
+    validate_user_data(user_data)
+    ok(f"格式验证通过: '{user_data['title']}'")
+
+    # ── Check for duplicates ──
     existing = load_all_submissions()
-    new_key = submission_key(data)
+    new_key = submission_key(user_data)
     for eid, esub in existing.items():
-        if eid == submission_id:
-            fail(f"重复的 submission ID: {submission_id}")
-        if submission_key(esub) == new_key:
+        esub_data = esub.get("data", esub)  # tolerate legacy flat format
+        if submission_key(esub_data) == new_key:
             fail(f"重复的配置 — 相同的效果+商店+颜色+遗物已存在于 '{eid}'")
 
     ok("去重检查通过")
 
-    # Author must match Issue author
-    if data["author"].lower() != issue_author.lower():
-        fail(f"作者不匹配 — 数据中 author='{data['author']}'，但 Issue 作者是 '{issue_author}'")
+    # ── Auto-generate management fields ──
+    submission_id = str(uuid_module.uuid4())
+    now = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 
-    ok("作者验证通过")
+    submission = {
+        "id": submission_id,
+        "author": issue_author,
+        "created_at": now,
+        "version": FILE_VERSION,
+        "data": user_data,
+    }
 
-    # Write file
+    # ── Write file ──
     sp = Path(SUBMISSIONS_DIR)
     sp.mkdir(parents=True, exist_ok=True)
-    filepath = sp / filename
+    filepath = sp / f"{submission_id}.json"
     with open(filepath, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+        json.dump(submission, f, ensure_ascii=False, indent=2)
 
     ok(f"已写入: {filepath}")
 
@@ -193,12 +213,12 @@ def process_delete():
 
     try:
         with open(filepath, "r", encoding="utf-8") as f:
-            data = json.load(f)
+            submission = json.load(f)
     except json.JSONDecodeError as e:
         fail(f"无法读取配置: {e}")
 
-    # Author must match
-    file_author = data.get("author", "")
+    # Author verification — read from top-level (management field, cannot be forged)
+    file_author = submission.get("author", "")
     if file_author.lower() != issue_author.lower():
         fail(f"无权删除 — 配置作者是 '{file_author}'，但 Issue 作者是 '{issue_author}'")
 
