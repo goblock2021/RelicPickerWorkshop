@@ -103,32 +103,6 @@ def validate_user_data(data: dict) -> None:
         fail("description 过长（最多500字符）")
 
 
-def submission_key(data: dict) -> tuple:
-    """Generate a dedup key from user data."""
-    eff_key = tuple(
-        (e.get("eff_id"), e.get("curse_id"))
-        for e in sorted(data.get("effects", []), key=lambda x: x.get("eff_id", 0))
-    )
-    return (eff_key, data.get("shop"), data.get("color"), data.get("relic_id"))
-
-
-def load_all_submissions() -> dict[str, dict]:
-    """Load all existing submissions into a dict {id: full_submission}."""
-    result = {}
-    sp = Path(SUBMISSIONS_DIR)
-    if not sp.exists():
-        sp.mkdir(parents=True, exist_ok=True)
-        return result
-
-    for f in sp.glob("*.json"):
-        try:
-            with open(f, "r", encoding="utf-8") as fh:
-                result[f.stem] = json.load(fh)
-        except (json.JSONDecodeError, OSError):
-            pass
-    return result
-
-
 def process_share():
     """Handle a share submission Issue."""
     body = os.environ.get("ISSUE_BODY", "")
@@ -158,16 +132,6 @@ def process_share():
     # Validate user data
     validate_user_data(user_data)
     ok(f"格式验证通过: '{user_data['title']}'")
-
-    # ── Check for duplicates ──
-    existing = load_all_submissions()
-    new_key = submission_key(user_data)
-    for eid, esub in existing.items():
-        esub_data = esub.get("data", esub)  # tolerate legacy flat format
-        if submission_key(esub_data) == new_key:
-            fail(f"重复的配置 — 相同的效果+商店+颜色+遗物已存在于 '{eid}'")
-
-    ok("去重检查通过")
 
     # ── Auto-generate management fields ──
     submission_id = str(uuid_module.uuid4())
