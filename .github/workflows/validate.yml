@@ -1,0 +1,41 @@
+name: Validate & Merge Submissions
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  validate-and-merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # Need HEAD^ for diff
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate Submissions
+        id: validate
+        run: python validate_submissions.py
+        env:
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+
+      - name: Merge PR
+        if: success()
+        run: |
+          gh pr merge ${{ github.event.pull_request.number }} \
+            --squash \
+            --delete-branch \
+            --subject "${{ github.event.pull_request.title }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
