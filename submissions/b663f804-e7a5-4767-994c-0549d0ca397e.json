@@ -1,0 +1,126 @@
+{
+  "id": "b663f804-e7a5-4767-994c-0549d0ca397e",
+  "author": "goblock2021",
+  "created_at": "2026-07-23T13:40:42Z",
+  "version": 1,
+  "issue_number": 11,
+  "data": {
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 6610400,
+            "curse_id": 6820500
+          },
+          {
+            "eff_id": 6611002,
+            "curse_id": 6820000
+          },
+          {
+            "eff_id": 7012300,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2011002,
+        "effect_names": [
+          "提升血量上限",
+          "提升物理减伤率＋２",
+          "血量偏低时，能提升减伤率"
+        ],
+        "curse_names": [
+          "受到损伤时，会累积催眠量表",
+          "受到损伤时，会累积中毒量表"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6500700,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6820100
+          },
+          {
+            "eff_id": 6611102,
+            "curse_id": 6850200
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2011112,
+        "effect_names": [
+          "【执行者】发动能力时，能缓慢恢复血量",
+          "提升血量上限",
+          "提升属性减伤率＋２"
+        ],
+        "curse_names": [
+          "受到损伤时，会累积猩红腐败量表",
+          "降低对所有异常状态的抵抗力"
+        ],
+        "relic_name": "辽阔的水滴暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6647000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": 6850200
+          },
+          {
+            "eff_id": 6611002,
+            "curse_id": 6820400
+          }
+        ],
+        "shop": "deep-new",
+        "color": 3,
+        "relic_id": 2011322,
+        "effect_names": [
+          "【执行者】提升生命力、耐力，但降低感应",
+          "打倒敌人时，能累积绝招量表＋１",
+          "提升物理减伤率＋２"
+        ],
+        "curse_names": [
+          "降低对所有异常状态的抵抗力",
+          "受到损伤时，会累积发狂量表"
+        ],
+        "relic_name": "辽阔的幽静暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7000002,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7240000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7012300,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 3,
+        "relic_id": 232,
+        "effect_names": [
+          "生命力＋３",
+          "受到损伤并被弹飞时，能提升强韧度与减伤率",
+          "血量偏低时，能提升减伤率"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的幽静情景"
+      }
+    ],
+    "title": "太奶",
+    "description": "随便配的"
+  }
+}
