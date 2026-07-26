@@ -20,6 +20,8 @@ import time
 import uuid as uuid_module
 from pathlib import Path
 
+from generate_workshop_json import generate as rebuild_workshop_json
+
 SUBMISSIONS_DIR = "submissions"
 FILE_VERSION = 1
 
@@ -152,6 +154,13 @@ def process_share():
 
     ok(f"已写入: {filepath}")
 
+    # Rebuild the compact workshop index
+    try:
+        rebuild_workshop_json()
+        ok("已重建 workshop.json")
+    except Exception as e:
+        ok(f"重建 workshop.json 失败（不影响提交）: {e}")
+
     output_file = os.environ.get("GITHUB_OUTPUT")
     if output_file:
         with open(output_file, "a") as f:
@@ -187,6 +196,13 @@ def process_delete():
 
     filepath.unlink()
     ok(f"已删除: {filepath}")
+
+    # Rebuild the compact workshop index
+    try:
+        rebuild_workshop_json()
+        ok("已重建 workshop.json")
+    except Exception as e:
+        ok(f"重建 workshop.json 失败（不影响提交）: {e}")
 
     output_file = os.environ.get("GITHUB_OUTPUT")
     if output_file:
