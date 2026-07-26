@@ -1,0 +1,39 @@
+{
+  "id": "88a72a7a-27fd-4478-becd-a8817b6e69dc",
+  "author": "goblock2021",
+  "created_at": "2026-07-26T11:13:11Z",
+  "version": 1,
+  "issue_number": 12,
+  "data": {
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7123700,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7003100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7331800,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-old",
+        "color": 1,
+        "relic_id": 111,
+        "effect_names": [
+          "出击时，武器战技改为“血刃” ※仅限能使用的武器类别",
+          "提升对出血的抵抗力",
+          "提升戟的攻击力"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的水滴情景"
+      }
+    ],
+    "title": "7/26 测试",
+    "description": ""
+  }
+}
