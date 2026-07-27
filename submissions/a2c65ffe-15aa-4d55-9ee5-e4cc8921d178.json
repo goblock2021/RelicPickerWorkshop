@@ -1,0 +1,179 @@
+{
+  "id": "a2c65ffe-15aa-4d55-9ee5-e4cc8921d178",
+  "author": "QY-XO",
+  "created_at": "2026-07-27T16:16:33Z",
+  "version": 1,
+  "issue_number": 19,
+  "data": {
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7036800,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7005600,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6630400,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 205,
+        "effect_names": [
+          "【送葬者】发动绝招时，提升攻击力",
+          "受到损伤的当下，能通过攻击恢复部分血量",
+          "通过潜在能力，能比较容易找到曲剑"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7036900,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7124000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 208,
+        "effect_names": [
+          "【送葬者】连击的最后攻击命中时，提升攻击力",
+          "每次打倒黑夜入侵者，能提升攻击力",
+          "出击时，武器战技改为“冻霜踏地” ※仅限能使用的武器类别"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7037000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "【送葬者】使用祷告将辅助效果附加在自己身上时 提升物理攻击力",
+          "每次打倒封印监牢里的囚犯，能提升攻击力",
+          "打倒敌人时，能累积绝招量表"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6500900,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850700
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2011012,
+        "effect_names": [
+          "【送葬者】发动绝招后，能再次使用技艺",
+          "提升物理攻击力＋４",
+          "提升血量上限"
+        ],
+        "curse_names": [
+          "使用圣杯瓶时，降低减伤率",
+          "闪避后的当下，降低减伤率"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6647400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6820300
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2011022,
+        "effect_names": [
+          "提升物理攻击力＋４",
+          "【送葬者】提升灵巧，但降低生命力、信仰",
+          "提升血量上限"
+        ],
+        "curse_names": [
+          "使用圣杯瓶时，降低减伤率",
+          "受到损伤时，会累积出血量表"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6820300
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": 6850700
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2012002,
+        "effect_names": [
+          "提升物理攻击力＋４",
+          "提升血量上限",
+          "打倒敌人时，能累积绝招量表＋１"
+        ],
+        "curse_names": [
+          "使用圣杯瓶时，降低减伤率",
+          "受到损伤时，会累积出血量表",
+          "闪避后的当下，降低减伤率"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      }
+    ],
+    "title": "双小曲送葬者",
+    "description": ""
+  }
+}
