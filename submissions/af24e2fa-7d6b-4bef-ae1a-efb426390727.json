@@ -1,0 +1,148 @@
+{
+  "id": "af24e2fa-7d6b-4bef-ae1a-efb426390727",
+  "author": "QY-XO",
+  "created_at": "2026-07-27T18:23:36Z",
+  "version": 1,
+  "issue_number": 0,
+  "data": {
+    "description": "",
+    "title": "投壶学者",
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7121000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6040300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6001601,
+            "curse_id": 6850700
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2010202,
+        "effect_names": [
+          "出击时，会持有“小型随身包包”",
+          "提升投掷壶的攻击力＋１",
+          "提升火属性攻击力＋４"
+        ],
+        "curse_names": [
+          "闪避后的当下，降低减伤率"
+        ],
+        "relic_name": "辽阔的光耀暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7040300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7036400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 2,
+        "relic_id": 223,
+        "effect_names": [
+          "提升投掷壶的攻击力",
+          "【学者】对上已用绝招连结的敌人，持续给予伤害",
+          "每次打倒黑夜入侵者，能提升攻击力"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7040300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7001602,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 2,
+        "relic_id": 220,
+        "effect_names": [
+          "提升投掷壶的攻击力",
+          "提升火属性攻击力＋２",
+          "打倒敌人时，能累积绝招量表"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7040300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7001602,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7121000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 2,
+        "relic_id": 220,
+        "effect_names": [
+          "提升投掷壶的攻击力",
+          "提升火属性攻击力＋２",
+          "出击时，会持有“小型随身包包”"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6040300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6001601,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": 6850900
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2011202,
+        "effect_names": [
+          "提升投掷壶的攻击力＋１",
+          "提升火属性攻击力＋４",
+          "打倒敌人时，能累积绝招量表＋１"
+        ],
+        "curse_names": [
+          "闪避后的当下，降低减伤率",
+          "使用圣杯瓶时，降低减伤率"
+        ],
+        "relic_name": "辽阔的光耀暗淡情景"
+      }
+    ]
+  }
+}
