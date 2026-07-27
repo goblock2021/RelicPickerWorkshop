@@ -4,6 +4,11 @@ on:
   issues:
     types: [opened]
 
+# 排队执行：同一时间只允许一个 workflow 运行，其余的排队等待
+concurrency:
+  group: process-workshop-submission
+  cancel-in-progress: false
+
 permissions:
   contents: write
   issues: write
