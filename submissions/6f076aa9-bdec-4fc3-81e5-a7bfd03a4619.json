@@ -1,0 +1,179 @@
+{
+  "id": "6f076aa9-bdec-4fc3-81e5-a7bfd03a4619",
+  "author": "QY-XO",
+  "created_at": "2026-07-27T16:17:56Z",
+  "version": 1,
+  "issue_number": 23,
+  "data": {
+    "title": "小刀爵",
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7010700,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7120500,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7260000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 1,
+        "relic_id": 211,
+        "effect_names": [
+          "【女爵】短剑连击的最后攻击命中时， 　能对着周围的敌人，再次上演最近做过的行动",
+          "出击时的武器，附加异常状态中毒",
+          "对陷入中毒的敌人，能强化攻击"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的水滴情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7032700,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7100100,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 1,
+        "relic_id": 217,
+        "effect_names": [
+          "【女爵】在绝招发动期间，打倒敌人时能提升攻击力",
+          "每次打倒黑夜入侵者，能提升攻击力",
+          "攻击命中时，能恢复精力"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的水滴情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7123900,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7260400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 1,
+        "relic_id": 214,
+        "effect_names": [
+          "出击时，武器战技改为“寒气冻雾” ※仅限能使用的武器类别",
+          "对陷入冻伤的敌人，能强化攻击",
+          "每次打倒封印监牢里的囚犯，能提升攻击力"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的水滴情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6500300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6005601,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850900
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2011112,
+        "effect_names": [
+          "【女爵】发动技艺时，能进入短暂无敌状态",
+          "受到损伤的当下，能通过攻击恢复部分血量＋２",
+          "提升物理攻击力＋４"
+        ],
+        "curse_names": [
+          "闪避后的当下，降低减伤率",
+          "使用圣杯瓶时，降低减伤率"
+        ],
+        "relic_name": "辽阔的水滴暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6643000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850900
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2011102,
+        "effect_names": [
+          "【女爵】提升生命力、力气，但降低集中力",
+          "打倒敌人时，能累积绝招量表＋１",
+          "提升物理攻击力＋４"
+        ],
+        "curse_names": [
+          "闪避后的当下，降低减伤率",
+          "使用圣杯瓶时，降低减伤率"
+        ],
+        "relic_name": "辽阔的水滴暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6260001,
+            "curse_id": 6820300
+          },
+          {
+            "eff_id": 6260401,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850900
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2012102,
+        "effect_names": [
+          "对陷入中毒的敌人，能强化攻击＋２",
+          "对陷入冻伤的敌人，能强化攻击＋２",
+          "提升物理攻击力＋４"
+        ],
+        "curse_names": [
+          "受到损伤时，会累积出血量表",
+          "闪避后的当下，降低减伤率",
+          "使用圣杯瓶时，降低减伤率"
+        ],
+        "relic_name": "辽阔的水滴暗淡情景"
+      }
+    ],
+    "description": ""
+  }
+}
