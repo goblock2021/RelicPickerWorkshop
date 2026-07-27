@@ -1,0 +1,180 @@
+{
+  "id": "39370499-6faf-493d-b046-c733a957efb0",
+  "author": "QY-XO",
+  "created_at": "2026-07-27T16:17:02Z",
+  "version": 1,
+  "issue_number": 21,
+  "data": {
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7011700,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 2,
+        "relic_id": 220,
+        "effect_names": [
+          "【执行者】在绝招发动期间，能以咆哮恢复血量",
+          "每次打倒封印监牢里的囚犯，能提升攻击力",
+          "打倒敌人时，能累积绝招量表"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7034400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7123700,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7330600,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 2,
+        "relic_id": 220,
+        "effect_names": [
+          "【执行者】提升技艺发动期间的攻击力 　但攻击时会降低减伤率",
+          "出击时，武器战技改为“血刃” ※仅限能使用的武器类别",
+          "提升刀的攻击力"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7034500,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6630600,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 2,
+        "relic_id": 220,
+        "effect_names": [
+          "【执行者】在技艺发动期间 　妖刀进入解放状态时，能恢复血量",
+          "每次打倒黑夜入侵者，能提升攻击力",
+          "通过潜在能力，能比较容易找到刀"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6500700,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850700
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2011202,
+        "effect_names": [
+          "【执行者】发动能力时，能缓慢恢复血量",
+          "提升物理攻击力＋４",
+          "提升血量上限"
+        ],
+        "curse_names": [
+          "使用圣杯瓶时，降低减伤率",
+          "闪避后的当下，降低减伤率"
+        ],
+        "relic_name": "辽阔的光耀暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": 6830100
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2012202,
+        "effect_names": [
+          "提升物理攻击力＋４",
+          "提升血量上限",
+          "打倒敌人时，能累积绝招量表＋１"
+        ],
+        "curse_names": [
+          "使用圣杯瓶时，降低减伤率",
+          "闪避后的当下，降低减伤率",
+          "降低灵巧、信仰"
+        ],
+        "relic_name": "辽阔的光耀暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6005601,
+            "curse_id": 6830200
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2012202,
+        "effect_names": [
+          "提升物理攻击力＋４",
+          "提升血量上限",
+          "受到损伤的当下，能通过攻击恢复部分血量＋２"
+        ],
+        "curse_names": [
+          "使用圣杯瓶时，降低减伤率",
+          "闪避后的当下，降低减伤率",
+          "降低智力、灵巧"
+        ],
+        "relic_name": "辽阔的光耀暗淡情景"
+      }
+    ],
+    "description": "",
+    "title": "常规血刃执行者"
+  }
+}
