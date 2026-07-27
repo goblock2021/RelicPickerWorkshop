@@ -58,6 +58,7 @@ def submissions_to_compact(submissions: list[dict]) -> list[dict]:
 
         entry = {
             "id": sub["id"],
+            "i": sub.get("issue_number", 0),
             "t": data.get("title", ""),
             "a": sub.get("author", ""),
             "d": data.get("description", ""),
