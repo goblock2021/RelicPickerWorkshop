@@ -1,0 +1,100 @@
+{
+  "id": "443bc4c5-6040-4cdb-956b-aeaf7435ba27",
+  "author": "lulin0110",
+  "created_at": "2026-07-31T16:14:55Z",
+  "version": 1,
+  "issue_number": 29,
+  "data": {
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 6500000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6001401,
+            "curse_id": 6820000
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2011012,
+        "effect_names": [
+          "【追踪者】技艺会附加引发异常状态出血的效果",
+          "打倒敌人时，能累积绝招量表＋１",
+          "提升物理攻击力＋４"
+        ],
+        "curse_names": [
+          "使用圣杯瓶时，降低减伤率",
+          "受到损伤时，会累积中毒量表"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001401,
+            "curse_id": 6820100
+          },
+          {
+            "eff_id": 6005601,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2011002,
+        "effect_names": [
+          "提升物理攻击力＋４",
+          "受到损伤的当下，能通过攻击恢复部分血量＋２",
+          "打倒敌人时，能累积绝招量表"
+        ],
+        "curse_names": [
+          "受到损伤时，会累积猩红腐败量表",
+          "闪避后的当下，降低减伤率"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850800
+          },
+          {
+            "eff_id": 6005600,
+            "curse_id": 6840100
+          },
+          {
+            "eff_id": 6611400,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2011102,
+        "effect_names": [
+          "提升物理攻击力＋４",
+          "受到损伤的当下，能通过攻击恢复部分血量＋１",
+          "提升圣杯瓶恢复量"
+        ],
+        "curse_names": [
+          "连续闪避时，降低减伤率",
+          "降低圣杯瓶恢复量"
+        ],
+        "relic_name": "辽阔的水滴暗淡情景"
+      }
+    ],
+    "description": "普通遗物用耳环双大饼",
+    "title": "物理战技追"
+  }
+}
