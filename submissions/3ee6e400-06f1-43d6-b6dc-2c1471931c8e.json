@@ -1,0 +1,179 @@
+{
+  "id": "3ee6e400-06f1-43d6-b6dc-2c1471931c8e",
+  "author": "lulin0110",
+  "created_at": "2026-08-01T15:32:42Z",
+  "version": 1,
+  "issue_number": 32,
+  "data": {
+    "description": "",
+    "title": "兽爪蜗",
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7044400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7121000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "每次打倒黑夜入侵者，能提升攻击力",
+          "强化野兽的祷告",
+          "出击时，会持有“小型随身包包”"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6611302,
+            "curse_id": 6830000
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": 6820000
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6820100
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2012022,
+        "effect_names": [
+          "强化祷告＋２",
+          "打倒敌人时，能累积绝招量表＋１",
+          "提升血量上限"
+        ],
+        "curse_names": [
+          "降低力气、智力",
+          "受到损伤时，会累积中毒量表",
+          "受到损伤时，会累积猩红腐败量表"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6611302,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6820200
+          },
+          {
+            "eff_id": 6500500,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2011022,
+        "effect_names": [
+          "强化祷告＋２",
+          "提升血量上限",
+          "【复仇者】发动能力时，能提升专注值上限"
+        ],
+        "curse_names": [
+          "使用圣杯瓶时，降低减伤率",
+          "受到损伤时，会累积冻伤量表"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6611302,
+            "curse_id": 6850800
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6820300
+          },
+          {
+            "eff_id": 7090100,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2011212,
+        "effect_names": [
+          "强化祷告＋２",
+          "提升血量上限",
+          "打倒敌人时，除了自己恢复周围我方人物的血量"
+        ],
+        "curse_names": [
+          "连续闪避时，降低减伤率",
+          "受到损伤时，会累积出血量表"
+        ],
+        "relic_name": "辽阔的光耀暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7044400,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 2,
+        "relic_id": 226,
+        "effect_names": [
+          "打倒敌人时，能累积绝招量表",
+          "每次打倒封印监牢里的囚犯，能提升攻击力",
+          "强化野兽的祷告"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7126000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7370900,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 208,
+        "effect_names": [
+          "强化野兽的祷告",
+          "出击时，会持有“星光碎片”",
+          "出击时，武器祷告改为“兽爪” ※仅限能使用的武器类别"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      }
+    ]
+  }
+}
