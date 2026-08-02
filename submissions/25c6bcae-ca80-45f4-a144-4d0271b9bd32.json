@@ -1,0 +1,176 @@
+{
+  "id": "25c6bcae-ca80-45f4-a144-4d0271b9bd32",
+  "author": "QY-XO",
+  "created_at": "2026-08-02T12:41:50Z",
+  "version": 1,
+  "issue_number": 33,
+  "data": {
+    "description": "",
+    "title": "极限伤害兽爪蜗",
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7220000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7370900,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7044400,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "【复仇者】与家人并肩战斗期间，能强化自身",
+          "出击时，武器祷告改为“兽爪” ※仅限能使用的武器类别",
+          "强化野兽的祷告"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "强化野兽的祷告",
+          "打倒敌人时，能累积绝招量表",
+          "每次打倒黑夜入侵者，能提升攻击力"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "强化野兽的祷告",
+          "每次解开魔法师塔的机关，能提升专注值上限",
+          "每次打倒封印监牢里的囚犯，能提升攻击力"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6611302,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": 6850700
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2011002,
+        "effect_names": [
+          "强化野兽的祷告",
+          "强化祷告＋２",
+          "打倒敌人时，能累积绝招量表＋１"
+        ],
+        "curse_names": [
+          "使用圣杯瓶时，降低减伤率",
+          "闪避后的当下，降低减伤率"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6611302,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6500500,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2010002,
+        "effect_names": [
+          "强化野兽的祷告",
+          "强化祷告＋２",
+          "【复仇者】发动能力时，能提升专注值上限"
+        ],
+        "curse_names": [
+          "使用圣杯瓶时，降低减伤率"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6611302,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 7082600,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2010002,
+        "effect_names": [
+          "强化野兽的祷告",
+          "强化祷告＋２",
+          "装备三把以上类别为圣印记的武器，能提升专注值上限"
+        ],
+        "curse_names": [
+          "使用圣杯瓶时，降低减伤率"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      }
+    ]
+  }
+}
