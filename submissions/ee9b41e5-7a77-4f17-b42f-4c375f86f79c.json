@@ -1,0 +1,178 @@
+{
+  "id": "ee9b41e5-7a77-4f17-b42f-4c375f86f79c",
+  "author": "QY-XO",
+  "created_at": "2026-08-02T13:04:52Z",
+  "version": 1,
+  "issue_number": 34,
+  "data": {
+    "title": "保底救护车鹰哥",
+    "description": "",
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7012000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7030700,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7030600,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 2,
+        "relic_id": 220,
+        "effect_names": [
+          "【守护者】发动绝招时，能缓慢恢复周围我方人物的血量",
+          "防御时，变得容易被敌人攻击",
+          "防御成功时，能累积绝招量表"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7033400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7036100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 2,
+        "relic_id": 220,
+        "effect_names": [
+          "【守护者】在能力发动期间，防御成功时能形成冲击波",
+          "防御成功时，恢复血量",
+          "打倒敌人时，能累积绝招量表"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7011000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7100100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7082900,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 2,
+        "relic_id": 220,
+        "effect_names": [
+          "【守护者】延长技艺的有效时间",
+          "攻击命中时，能恢复精力",
+          "装备三把以上类别为大盾的武器，能提升血量上限"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6500100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": 6830200
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2011202,
+        "effect_names": [
+          "【守护者】发动技艺时，能提升周围我方人物的减伤率",
+          "提升血量上限",
+          "打倒敌人时，能累积绝招量表＋１"
+        ],
+        "curse_names": [
+          "闪避后的当下，降低减伤率",
+          "降低智力、灵巧"
+        ],
+        "relic_name": "辽阔的光耀暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6060300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090100,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2010202,
+        "effect_names": [
+          "提升血量上限",
+          "每次打倒大教堂的强敌，能提升血量上限",
+          "打倒敌人时，除了自己恢复周围我方人物的血量"
+        ],
+        "curse_names": [
+          "闪避后的当下，降低减伤率"
+        ],
+        "relic_name": "辽阔的光耀暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6030600,
+            "curse_id": 6830200
+          },
+          {
+            "eff_id": 6005601,
+            "curse_id": 6830100
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2012202,
+        "effect_names": [
+          "提升血量上限",
+          "防御成功时，能累积绝招量表＋１",
+          "受到损伤的当下，能通过攻击恢复部分血量＋２"
+        ],
+        "curse_names": [
+          "闪避后的当下，降低减伤率",
+          "降低智力、灵巧",
+          "降低灵巧、信仰"
+        ],
+        "relic_name": "辽阔的光耀暗淡情景"
+      }
+    ]
+  }
+}
