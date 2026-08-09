@@ -1,0 +1,180 @@
+{
+  "id": "32067a1d-3ba8-4b6e-a188-544b26925793",
+  "author": "PlaceboRobot",
+  "created_at": "2026-08-09T02:40:55Z",
+  "version": 1,
+  "issue_number": 35,
+  "data": {
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7033200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7000802,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "【追踪者】技艺的使用次数＋１",
+          "每次打倒黑夜入侵者，能提升攻击力",
+          "缩短技艺的冷却时间＋３"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7010500,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7240000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "【追踪者】发动绝招时，能燃起火焰、蔓延周围",
+          "打倒敌人时，能累积绝招量表",
+          "受到损伤并被弹飞时，能提升强韧度与减伤率"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7342000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6631900,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7005600,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 1,
+        "relic_id": 211,
+        "effect_names": [
+          "以拳头攻击时，恢复血量",
+          "通过潜在能力，能比较容易找到拳头",
+          "受到损伤的当下，能通过攻击恢复部分血量"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的水滴情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6500000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850900
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2011002,
+        "effect_names": [
+          "【追踪者】技艺会附加引发异常状态出血的效果",
+          "提升物理攻击力＋４",
+          "提升血量上限"
+        ],
+        "curse_names": [
+          "闪避后的当下，降低减伤率",
+          "使用圣杯瓶时，降低减伤率"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6005601,
+            "curse_id": 6820000
+          },
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850700
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2012002,
+        "effect_names": [
+          "受到损伤的当下，能通过攻击恢复部分血量＋２",
+          "提升物理攻击力＋４",
+          "提升血量上限"
+        ],
+        "curse_names": [
+          "受到损伤时，会累积中毒量表",
+          "使用圣杯瓶时，降低减伤率",
+          "闪避后的当下，降低减伤率"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6090000,
+            "curse_id": 6820000
+          },
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850700
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2012102,
+        "effect_names": [
+          "打倒敌人时，能累积绝招量表＋１",
+          "提升物理攻击力＋４",
+          "提升血量上限"
+        ],
+        "curse_names": [
+          "受到损伤时，会累积中毒量表",
+          "使用圣杯瓶时，降低减伤率",
+          "闪避后的当下，降低减伤率"
+        ],
+        "relic_name": "辽阔的水滴暗淡情景"
+      }
+    ],
+    "description": "燃尽了，只剩下雪白色的灰烬",
+    "title": "明日之丈拳套追"
+  }
+}
