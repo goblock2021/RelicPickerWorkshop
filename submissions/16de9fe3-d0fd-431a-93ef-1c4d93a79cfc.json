@@ -1,0 +1,128 @@
+{
+  "id": "16de9fe3-d0fd-431a-93ef-1c4d93a79cfc",
+  "author": "Gasa14",
+  "created_at": "2026-08-12T15:24:40Z",
+  "version": 1,
+  "issue_number": 36,
+  "data": {
+    "description": "全蓝杯子，带“魔女胸针”和“深海的暗夜”，可抗多个山妖大壶，平时只需要拉仇恨和救人，相信队友的输出  :)",
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7030600,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7030700,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 1,
+        "relic_id": 214,
+        "effect_names": [
+          "防御成功时，能累积绝招量表",
+          "防御时，变得容易被敌人攻击",
+          "打倒敌人时，能累积绝招量表"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的水滴情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6030600,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 7036100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850800
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2011102,
+        "effect_names": [
+          "防御成功时，能累积绝招量表＋１",
+          "防御成功时，恢复血量",
+          "提升血量上限"
+        ],
+        "curse_names": [
+          "闪避后的当下，降低减伤率",
+          "连续闪避时，降低减伤率"
+        ],
+        "relic_name": "辽阔的水滴暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850800
+          },
+          {
+            "eff_id": 6002601,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6611102,
+            "curse_id": 6830100
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2012112,
+        "effect_names": [
+          "提升血量上限",
+          "提升魔力属性减伤率＋２",
+          "提升属性减伤率＋２"
+        ],
+        "curse_names": [
+          "连续闪避时，降低减伤率",
+          "闪避后的当下，降低减伤率",
+          "降低灵巧、信仰"
+        ],
+        "relic_name": "辽阔的水滴暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850800
+          },
+          {
+            "eff_id": 6611102,
+            "curse_id": 6830200
+          },
+          {
+            "eff_id": 6611002,
+            "curse_id": 6850700
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2012122,
+        "effect_names": [
+          "提升血量上限",
+          "提升属性减伤率＋２",
+          "提升物理减伤率＋２"
+        ],
+        "curse_names": [
+          "连续闪避时，降低减伤率",
+          "降低智力、灵巧",
+          "闪避后的当下，降低减伤率"
+        ],
+        "relic_name": "辽阔的水滴暗淡情景"
+      }
+    ],
+    "title": "局外人-----肉神🦅"
+  }
+}
