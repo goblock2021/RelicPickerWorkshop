@@ -1,0 +1,124 @@
+{
+  "id": "ef0ece6f-950b-4f9c-9fca-8511c5d1a58f",
+  "author": "Laniakea717",
+  "created_at": "2026-08-17T10:29:01Z",
+  "version": 1,
+  "issue_number": 41,
+  "data": {
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7370900,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7031200,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 3,
+        "relic_id": 232,
+        "effect_names": [
+          "每次打倒黑夜入侵者，能提升攻击力",
+          "出击时，武器祷告改为“兽爪” ※仅限能使用的武器类别",
+          "【复仇者】发动绝招时，能强化家人与我方人物"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的幽静情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001401,
+            "curse_id": 6820000
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6500500,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2011122,
+        "effect_names": [
+          "提升物理攻击力＋４",
+          "打倒敌人时，能累积绝招量表＋１",
+          "【复仇者】发动能力时，能提升专注值上限"
+        ],
+        "curse_names": [
+          "受到损伤时，会累积中毒量表",
+          "使用圣杯瓶时，降低减伤率"
+        ],
+        "relic_name": "辽阔的水滴暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001401,
+            "curse_id": 6820000
+          },
+          {
+            "eff_id": 6645100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6632400,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2010202,
+        "effect_names": [
+          "提升物理攻击力＋４",
+          "【复仇者】提升力气，但降低信仰",
+          "通过潜在能力，能比较容易找到大弓"
+        ],
+        "curse_names": [
+          "受到损伤时，会累积中毒量表"
+        ],
+        "relic_name": "辽阔的光耀暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001401,
+            "curse_id": 6830200
+          },
+          {
+            "eff_id": 6624300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 3,
+        "relic_id": 2010302,
+        "effect_names": [
+          "提升物理攻击力＋４",
+          "出击时，会持有“狂热香药”",
+          "打倒敌人时，能累积绝招量表"
+        ],
+        "curse_names": [
+          "降低智力、灵巧"
+        ],
+        "relic_name": "辽阔的幽静暗淡情景"
+      }
+    ],
+    "description": "普通遗物剩下双大饼\n非主流玩法，目标是找大弓，不过力转玩其他战技其实也行，自行斟酌\n对比大弓追的优势大概是可以心安理得的拿减仇恨\n没怎么叠状态加伤，如果有铁眼固排队友可以自行优化上毒加攻",
+    "title": "力转战技哈基蜗"
+  }
+}
