@@ -1,0 +1,127 @@
+{
+  "id": "673c5d22-f0ac-4874-9745-792fbef97f1f",
+  "author": "Laniakea717",
+  "created_at": "2026-08-17T10:11:22Z",
+  "version": 1,
+  "issue_number": 38,
+  "data": {
+    "description": "普通遗物剩下两个带王皮蛋和红安定\n小无赖玩法，核心是依赖蓝钩爪的异常和猛禽钩爪的蓄力特殊模组玩，一般都能玩得比较舒服\n改老寒腿是为了前期不隐身，可以换别的",
+    "title": "钩爪肉修女",
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7124000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "每次打倒黑夜入侵者，能提升攻击力",
+          "打倒敌人时，能累积绝招量表",
+          "出击时，武器战技改为“冻霜踏地” ※仅限能使用的武器类别"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6005601,
+            "curse_id": 6820000
+          },
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6830000
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2012002,
+        "effect_names": [
+          "受到损伤的当下，能通过攻击恢复部分血量＋２",
+          "提升物理攻击力＋４",
+          "提升血量上限"
+        ],
+        "curse_names": [
+          "受到损伤时，会累积中毒量表",
+          "使用圣杯瓶时，降低减伤率",
+          "降低力气、智力"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6820000
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": 6820100
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2012002,
+        "effect_names": [
+          "提升物理攻击力＋４",
+          "提升血量上限",
+          "打倒敌人时，能累积绝招量表＋１"
+        ],
+        "curse_names": [
+          "使用圣杯瓶时，降低减伤率",
+          "受到损伤时，会累积中毒量表",
+          "受到损伤时，会累积猩红腐败量表"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6647400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6632000,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2010102,
+        "effect_names": [
+          "提升物理攻击力＋４",
+          "【送葬者】提升灵巧，但降低生命力、信仰",
+          "通过潜在能力，能比较容易找到钩爪"
+        ],
+        "curse_names": [
+          "使用圣杯瓶时，降低减伤率"
+        ],
+        "relic_name": "辽阔的水滴暗淡情景"
+      }
+    ]
+  }
+}
