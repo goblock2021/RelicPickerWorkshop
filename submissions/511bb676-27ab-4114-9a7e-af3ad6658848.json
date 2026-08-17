@@ -1,0 +1,152 @@
+{
+  "id": "511bb676-27ab-4114-9a7e-af3ad6658848",
+  "author": "Laniakea717",
+  "created_at": "2026-08-17T09:57:36Z",
+  "version": 1,
+  "issue_number": 37,
+  "data": {
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7060000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7034600,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "每次打倒封印监牢里的囚犯，能提升攻击力",
+          "【铁之眼】蓄力发动绝招时，附加异常状态中毒",
+          "打倒敌人时，能累积绝招量表"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6500200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": 6820000
+          },
+          {
+            "eff_id": 6001401,
+            "curse_id": 6820100
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2011002,
+        "effect_names": [
+          "【铁之眼】技艺会附加引发异常状态中毒的效果 　对上陷入中毒的敌人，能给予大伤害",
+          "打倒敌人时，能累积绝招量表＋１",
+          "提升物理攻击力＋４"
+        ],
+        "curse_names": [
+          "受到损伤时，会累积中毒量表",
+          "受到损伤时，会累积猩红腐败量表"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6260001,
+            "curse_id": 6820000
+          },
+          {
+            "eff_id": 6642100,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2011002,
+        "effect_names": [
+          "提升物理攻击力＋４",
+          "对陷入中毒的敌人，能强化攻击＋２",
+          "【铁之眼】提升生命力、力气，但降低灵巧"
+        ],
+        "curse_names": [
+          "使用圣杯瓶时，降低减伤率",
+          "受到损伤时，会累积中毒量表"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7270100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6630200,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "【铁之眼】技艺的使用次数＋１",
+          "每次打倒黑夜入侵者，能提升攻击力",
+          "通过潜在能力，能比较容易找到大剑"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850900
+          },
+          {
+            "eff_id": 6260000,
+            "curse_id": 6820500
+          },
+          {
+            "eff_id": 6621900,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2011002,
+        "effect_names": [
+          "提升物理攻击力＋４",
+          "对陷入中毒的敌人，能强化攻击＋１",
+          "出击时，会持有“连刺破露滴”"
+        ],
+        "curse_names": [
+          "使用圣杯瓶时，降低减伤率",
+          "受到损伤时，会累积催眠量表"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      }
+    ],
+    "title": "牢罪毒折力转战技眼",
+    "description": "剩下的普通遗物带红安定\n没啥好说的，可以把连刺破换中毒+0或者出击毒弓，调整一下词条位置就行\n不建议换力转，力转点数很赚，可以变成追踪mini，基本拿到物理战技就能玩"
+  }
+}
