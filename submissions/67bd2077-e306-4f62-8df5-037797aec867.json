@@ -1,0 +1,181 @@
+{
+  "id": "67bd2077-e306-4f62-8df5-037797aec867",
+  "author": "Gasa14",
+  "created_at": "2026-08-18T15:25:51Z",
+  "version": 1,
+  "issue_number": 42,
+  "data": {
+    "title": "技术补正----反斗神🦅",
+    "description": "要伤害有伤害，能抗血量高，戟的重防反三段都可吃加成\n警告：该配装熟练度需求较高，野排谨慎使用",
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7030600,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7036100,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 3,
+        "relic_id": 232,
+        "effect_names": [
+          "每次打倒黑夜入侵者，能提升攻击力",
+          "防御成功时，能累积绝招量表",
+          "防御成功时，恢复血量"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的幽静情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7033400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7030700,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7150000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 3,
+        "relic_id": 232,
+        "effect_names": [
+          "【守护者】在能力发动期间，防御成功时能形成冲击波",
+          "防御时，变得容易被敌人攻击",
+          "防御反击成功时，能依照自己目前的血量提升伤害"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的幽静情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7012000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7040100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 2,
+        "relic_id": 223,
+        "effect_names": [
+          "【守护者】发动绝招时，能缓慢恢复周围我方人物的血量",
+          "强化防御反击",
+          "打倒敌人时，能累积绝招量表"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6040101,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850800
+          },
+          {
+            "eff_id": 6030600,
+            "curse_id": 6850900
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2012202,
+        "effect_names": [
+          "强化防御反击＋２",
+          "提升血量上限",
+          "防御成功时，能累积绝招量表＋１"
+        ],
+        "curse_names": [
+          "闪避后的当下，降低减伤率",
+          "连续闪避时，降低减伤率",
+          "使用圣杯瓶时，降低减伤率"
+        ],
+        "relic_name": "辽阔的光耀暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6040101,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850800
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": 6850900
+          }
+        ],
+        "shop": "deep-new",
+        "color": 3,
+        "relic_id": 2012302,
+        "effect_names": [
+          "强化防御反击＋２",
+          "提升血量上限",
+          "打倒敌人时，能累积绝招量表＋１"
+        ],
+        "curse_names": [
+          "闪避后的当下，降低减伤率",
+          "连续闪避时，降低减伤率",
+          "使用圣杯瓶时，降低减伤率"
+        ],
+        "relic_name": "辽阔的幽静暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6040101,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850800
+          },
+          {
+            "eff_id": 6005601,
+            "curse_id": 6850900
+          }
+        ],
+        "shop": "deep-new",
+        "color": 3,
+        "relic_id": 2012302,
+        "effect_names": [
+          "强化防御反击＋２",
+          "提升血量上限",
+          "受到损伤的当下，能通过攻击恢复部分血量＋２"
+        ],
+        "curse_names": [
+          "闪避后的当下，降低减伤率",
+          "连续闪避时，降低减伤率",
+          "使用圣杯瓶时，降低减伤率"
+        ],
+        "relic_name": "辽阔的幽静暗淡情景"
+      }
+    ]
+  }
+}
