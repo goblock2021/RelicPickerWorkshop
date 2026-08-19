@@ -1,0 +1,179 @@
+{
+  "id": "41f6f89c-8ac2-4726-b116-c6e119d3e070",
+  "author": "Gasa14",
+  "created_at": "2026-08-19T10:49:26Z",
+  "version": 1,
+  "issue_number": 43,
+  "data": {
+    "title": "回归性哈基蜗----祷告神🦅",
+    "description": "哈基蜗就是神鹰哥，神鹰哥就是哈基蜗\n比小蜗的生存能力更高，但上限不及小窝\n定位是副C，比较缺蓝，有技术可以折叠特定祷告和属性攻击力\n野排可以吃哈基蜗的剩饭",
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7012000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6633100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 3,
+        "relic_id": 229,
+        "effect_names": [
+          "【守护者】发动绝招时，能缓慢恢复周围我方人物的血量",
+          "通过潜在能力，能比较容易找到圣印记",
+          "每次打倒黑夜入侵者，能提升攻击力"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的幽静情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7082600,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060100,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 3,
+        "relic_id": 232,
+        "effect_names": [
+          "装备三把以上类别为圣印记的武器，能提升专注值上限",
+          "每次打倒封印监牢里的囚犯，能提升攻击力",
+          "每次解开魔法师塔的机关，能提升专注值上限"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的幽静情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7030600,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7000102,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 3,
+        "relic_id": 235,
+        "effect_names": [
+          "打倒敌人时，能累积绝招量表",
+          "防御成功时，能累积绝招量表",
+          "集中力＋３"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的幽静情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6090000,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6611302,
+            "curse_id": 6850800
+          },
+          {
+            "eff_id": 6641100,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 3,
+        "relic_id": 2011302,
+        "effect_names": [
+          "打倒敌人时，能累积绝招量表＋１",
+          "强化祷告＋２",
+          "【守护者】提升集中力、信仰，但降低生命力"
+        ],
+        "curse_names": [
+          "闪避后的当下，降低减伤率",
+          "连续闪避时，降低减伤率"
+        ],
+        "relic_name": "辽阔的幽静暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6611302,
+            "curse_id": 6850800
+          },
+          {
+            "eff_id": 6030600,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6610500,
+            "curse_id": 6850900
+          }
+        ],
+        "shop": "deep-new",
+        "color": 3,
+        "relic_id": 2012302,
+        "effect_names": [
+          "强化祷告＋２",
+          "防御成功时，能累积绝招量表＋１",
+          "提升专注值上限"
+        ],
+        "curse_names": [
+          "连续闪避时，降低减伤率",
+          "闪避后的当下，降低减伤率",
+          "使用圣杯瓶时，降低减伤率"
+        ],
+        "relic_name": "辽阔的幽静暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6611302,
+            "curse_id": 6850800
+          },
+          {
+            "eff_id": 6610500,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6610700,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 3,
+        "relic_id": 2011322,
+        "effect_names": [
+          "强化祷告＋２",
+          "提升专注值上限",
+          "减少专注值消耗"
+        ],
+        "curse_names": [
+          "连续闪避时，降低减伤率",
+          "闪避后的当下，降低减伤率"
+        ],
+        "relic_name": "辽阔的幽静暗淡情景"
+      }
+    ]
+  }
+}
