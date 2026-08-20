@@ -1,0 +1,125 @@
+{
+  "id": "af2a9cd6-8808-48d2-83d4-9c5c252ab329",
+  "author": "Gasa14",
+  "created_at": "2026-08-20T02:32:35Z",
+  "version": 1,
+  "issue_number": 44,
+  "data": {
+    "title": "技神流-----极致战🦅",
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060100,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 2,
+        "relic_id": 220,
+        "effect_names": [
+          "每次打倒黑夜入侵者，能提升攻击力",
+          "打倒敌人时，能累积绝招量表",
+          "每次解开魔法师塔的机关，能提升专注值上限"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6641000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6610802,
+            "curse_id": 6850800
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": 6850700
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2011002,
+        "effect_names": [
+          "【守护者】提升力气、灵巧，但降低生命力",
+          "提升属性攻击力＋２",
+          "打倒敌人时，能累积绝招量表＋１"
+        ],
+        "curse_names": [
+          "连续闪避时，降低减伤率",
+          "闪避后的当下，降低减伤率"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6610802,
+            "curse_id": 6850800
+          },
+          {
+            "eff_id": 6631800,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6610500,
+            "curse_id": 6850700
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2011102,
+        "effect_names": [
+          "提升属性攻击力＋２",
+          "通过潜在能力，能比较容易找到镰刀",
+          "提升专注值上限"
+        ],
+        "curse_names": [
+          "连续闪避时，降低减伤率",
+          "闪避后的当下，降低减伤率"
+        ],
+        "relic_name": "辽阔的水滴暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6610802,
+            "curse_id": 6850800
+          },
+          {
+            "eff_id": 6641100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6610700,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2010202,
+        "effect_names": [
+          "提升属性攻击力＋２",
+          "【守护者】提升集中力、信仰，但降低生命力",
+          "减少专注值消耗"
+        ],
+        "curse_names": [
+          "连续闪避时，降低减伤率"
+        ],
+        "relic_name": "辽阔的光耀暗淡情景"
+      }
+    ],
+    "description": "带双安定，\n极致的输出，屎一样的血量\n生存堪忧，残疾人一样的翻滚\n可改初始战技降低吸血程度\n理论上神鹰最强输出，\n娱乐配装，谨慎使用"
+  }
+}
