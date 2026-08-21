@@ -1,0 +1,180 @@
+{
+  "id": "3cd24626-28b9-4fa1-a794-dd28b8fe1df7",
+  "author": "Gasa14",
+  "created_at": "2026-08-21T05:57:09Z",
+  "version": 1,
+  "issue_number": 46,
+  "data": {
+    "description": "弩箭和修女的技艺增伤很适配，可以留意一些buff祷告\n远程骚扰，面对怪的突然转火，显得游刃有余\n拿到滑轮弩就算毕业\n提示：不要用弩去救人\n娱乐配装，选择使用",
+    "title": "远程火力----反叛的弩弩修",
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7037000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6632500,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7001402,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 2,
+        "relic_id": 220,
+        "effect_names": [
+          "【送葬者】使用祷告将辅助效果附加在自己身上时 提升物理攻击力",
+          "通过潜在能力，能比较容易找到弩",
+          "提升物理攻击力＋２"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7036800,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7100100,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 2,
+        "relic_id": 223,
+        "effect_names": [
+          "【送葬者】发动绝招时，提升攻击力",
+          "每次打倒黑夜入侵者，能提升攻击力",
+          "攻击命中时，能恢复精力"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7000802,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 2,
+        "relic_id": 226,
+        "effect_names": [
+          "打倒敌人时，能累积绝招量表",
+          "每次打倒封印监牢里的囚犯，能提升攻击力",
+          "缩短技艺的冷却时间＋３"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850800
+          },
+          {
+            "eff_id": 6500900,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850700
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2011202,
+        "effect_names": [
+          "提升物理攻击力＋４",
+          "【送葬者】发动绝招后，能再次使用技艺",
+          "提升血量上限"
+        ],
+        "curse_names": [
+          "连续闪避时，降低减伤率",
+          "闪避后的当下，降低减伤率"
+        ],
+        "relic_name": "辽阔的光耀暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850800
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": 6850900
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2012212,
+        "effect_names": [
+          "提升物理攻击力＋４",
+          "提升血量上限",
+          "打倒敌人时，能累积绝招量表＋１"
+        ],
+        "curse_names": [
+          "连续闪避时，降低减伤率",
+          "闪避后的当下，降低减伤率",
+          "使用圣杯瓶时，降低减伤率"
+        ],
+        "relic_name": "辽阔的光耀暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001401,
+            "curse_id": 6850800
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6850700
+          },
+          {
+            "eff_id": 6005601,
+            "curse_id": 6850900
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2012222,
+        "effect_names": [
+          "提升物理攻击力＋４",
+          "提升血量上限",
+          "受到损伤的当下，能通过攻击恢复部分血量＋２"
+        ],
+        "curse_names": [
+          "连续闪避时，降低减伤率",
+          "闪避后的当下，降低减伤率",
+          "使用圣杯瓶时，降低减伤率"
+        ],
+        "relic_name": "辽阔的光耀暗淡情景"
+      }
+    ]
+  }
+}
