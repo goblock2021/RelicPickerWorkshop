@@ -1,0 +1,169 @@
+{
+  "id": "b231319d-ac42-478c-b3d0-a1a7ba110614",
+  "author": "Laniakea717",
+  "created_at": "2026-08-24T10:09:49Z",
+  "version": 1,
+  "issue_number": 48,
+  "data": {
+    "description": "打辅助为主，出击自带用于上贡队友提速\n主要靠老头本身的大招强度和前期壶折的权威性提速，可以适当放生队友单走清各类锻体\n不建议野排使用\n思路学习自B站UP主金色小圆盾",
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7036400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7040300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "【学者】对上已用绝招连结的敌人，持续给予伤害",
+          "提升投掷壶的攻击力",
+          "打倒敌人时，能累积绝招量表"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7040300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6630100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 1,
+        "relic_id": 211,
+        "effect_names": [
+          "提升投掷壶的攻击力",
+          "通过潜在能力，能比较容易找到直剑",
+          "每次打倒黑夜入侵者，能提升攻击力"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的水滴情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7040300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7036300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7123800,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 3,
+        "relic_id": 229,
+        "effect_names": [
+          "提升投掷壶的攻击力",
+          "【学者】使用技艺时，提升目标我方人物的攻击力",
+          "出击时，武器战技改为“切腹” ※仅限能使用的武器类别"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的幽静情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6040300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6624000,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2010002,
+        "effect_names": [
+          "提升投掷壶的攻击力＋１",
+          "打倒敌人时，能累积绝招量表＋１",
+          "出击时，会持有“振奋香”"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6040300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6624300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7121000,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2013202,
+        "effect_names": [
+          "提升投掷壶的攻击力＋１",
+          "出击时，会持有“狂热香药”",
+          "出击时，会持有“小型随身包包”"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6040300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6621900,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7121000,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2013202,
+        "effect_names": [
+          "提升投掷壶的攻击力＋１",
+          "出击时，会持有“连刺破露滴”",
+          "出击时，会持有“小型随身包包”"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀暗淡情景"
+      }
+    ],
+    "title": "辅助壶折老头"
+  }
+}
