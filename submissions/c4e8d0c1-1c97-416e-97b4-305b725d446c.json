@@ -1,0 +1,178 @@
+{
+  "id": "c4e8d0c1-1c97-416e-97b4-305b725d446c",
+  "author": "WDUOW",
+  "created_at": "2026-08-27T03:48:16Z",
+  "version": 1,
+  "issue_number": 50,
+  "data": {
+    "title": "结晶女巫",
+    "description": "",
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7034100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7043600,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "每次打倒黑夜入侵者，能提升攻击力",
+          "【隐士】发动绝招时，能提升血量上限",
+          "强化结晶人的魔法"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7001502,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7043600,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "打倒敌人时，能累积绝招量表",
+          "提升魔力属性攻击力＋２",
+          "强化结晶人的魔法"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7001502,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7122100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7043600,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "提升魔力属性攻击力＋２",
+          "出击时，会持有“召咒魂铃”",
+          "强化结晶人的魔法"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001501,
+            "curse_id": 6830100
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": 6830300
+          },
+          {
+            "eff_id": 7043600,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2011002,
+        "effect_names": [
+          "提升魔力属性攻击力＋４",
+          "打倒敌人时，能累积绝招量表＋１",
+          "强化结晶人的魔法"
+        ],
+        "curse_names": [
+          "降低灵巧、信仰",
+          "降低信仰、力气"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001501,
+            "curse_id": 6830100
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6830300
+          },
+          {
+            "eff_id": 7043600,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2011002,
+        "effect_names": [
+          "提升魔力属性攻击力＋４",
+          "提升血量上限",
+          "强化结晶人的魔法"
+        ],
+        "curse_names": [
+          "降低灵巧、信仰",
+          "降低信仰、力气"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6001501,
+            "curse_id": 6830100
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6830300
+          },
+          {
+            "eff_id": 7043600,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2011002,
+        "effect_names": [
+          "提升魔力属性攻击力＋４",
+          "提升血量上限",
+          "强化结晶人的魔法"
+        ],
+        "curse_names": [
+          "降低灵巧、信仰",
+          "降低信仰、力气"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      }
+    ]
+  }
+}
