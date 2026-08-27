@@ -1,0 +1,120 @@
+{
+  "id": "cb6286ae-528b-457b-b171-3714dacf153d",
+  "author": "WDUOW",
+  "created_at": "2026-08-27T07:51:48Z",
+  "version": 1,
+  "issue_number": 51,
+  "data": {
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7012300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7000002,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7012200,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "血量偏低时，能提升减伤率",
+          "生命力＋３",
+          "血量偏低时，包含周围我方人物缓慢恢复血量"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7012300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7000002,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7240000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "血量偏低时，能提升减伤率",
+          "生命力＋３",
+          "受到损伤并被弹飞时，能提升强韧度与减伤率"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7012300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7000002,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7005600,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "血量偏低时，能提升减伤率",
+          "生命力＋３",
+          "受到损伤的当下，能通过攻击恢复部分血量"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7012300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6610400,
+            "curse_id": 6830100
+          },
+          {
+            "eff_id": 6611002,
+            "curse_id": 6830200
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2011002,
+        "effect_names": [
+          "血量偏低时，能提升减伤率",
+          "提升血量上限",
+          "提升物理减伤率＋２"
+        ],
+        "curse_names": [
+          "降低灵巧、信仰",
+          "降低智力、灵巧"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      }
+    ],
+    "description": "全加血，没有伤害，适合n3及以下。往上还是红泪比较好。",
+    "title": "纯肉蓝泪无赖"
+  }
+}
