@@ -1,0 +1,175 @@
+{
+  "id": "77f30ea2-039b-4609-885c-183d4e1f6afc",
+  "author": "imanityx",
+  "created_at": "2026-09-13T16:18:19Z",
+  "version": 1,
+  "issue_number": 52,
+  "data": {
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7044300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7031200,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 205,
+        "effect_names": [
+          "强化狩猎神祇的祷告",
+          "每次打倒封印监牢里的囚犯，能提升攻击力",
+          "【复仇者】发动绝招时，能强化家人与我方人物"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060100,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 202,
+        "effect_names": [
+          "强化狩猎神祇的祷告",
+          "每次打倒黑夜入侵者，能提升攻击力",
+          "每次解开魔法师塔的机关，能提升专注值上限"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7370900,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 3,
+        "relic_id": 232,
+        "effect_names": [
+          "强化狩猎神祇的祷告",
+          "出击时，武器祷告改为“兽爪” ※仅限能使用的武器类别",
+          "打倒敌人时，能累积绝招量表"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的幽静情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6611302,
+            "curse_id": 6820000
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2010022,
+        "effect_names": [
+          "强化狩猎神祇的祷告",
+          "打倒敌人时，能累积绝招量表",
+          "强化祷告＋２"
+        ],
+        "curse_names": [
+          "受到损伤时，会累积中毒量表"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6611302,
+            "curse_id": 6830000
+          },
+          {
+            "eff_id": 7110000,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 3,
+        "relic_id": 2010322,
+        "effect_names": [
+          "强化狩猎神祇的祷告",
+          "强化祷告＋２",
+          "增加自己与我方人物获得的卢恩"
+        ],
+        "curse_names": [
+          "降低力气、智力"
+        ],
+        "relic_name": "辽阔的幽静暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044300,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6611302,
+            "curse_id": 6830200
+          },
+          {
+            "eff_id": 7110000,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2010002,
+        "effect_names": [
+          "强化狩猎神祇的祷告",
+          "强化祷告＋２",
+          "增加自己与我方人物获得的卢恩"
+        ],
+        "curse_names": [
+          "降低智力、灵巧"
+        ],
+        "relic_name": "辽阔的火燃暗淡情景"
+      }
+    ],
+    "description": "",
+    "title": "狩猎神祇祷告"
+  }
+}
