@@ -1,0 +1,172 @@
+{
+  "id": "5d7568b5-9a18-4251-a05e-6665ed31291d",
+  "author": "SuperCJ233",
+  "created_at": "2026-10-02T11:40:23Z",
+  "version": 1,
+  "issue_number": 53,
+  "data": {
+    "description": "大部分是常规词条正常玩就行，小折娱乐，6辉剑魔法，象征性出了点魔力。建议找个带辉剑的法杖，初始辉剑除了劲大，只剩下耗精多、出伤慢、难打中了",
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7043400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7360600,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 208,
+        "effect_names": [
+          "强化辉剑的魔法",
+          "每次打倒黑夜入侵者，能提升攻击力",
+          "出击时，武器魔法改为“魔法辉剑” ※仅限能使用的武器类别"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7032900,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7043400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7001502,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 1,
+        "relic_id": 217,
+        "effect_names": [
+          "【隐士】发动绝招时 　自己陷入异常状态出血，提升攻击力",
+          "强化辉剑的魔法",
+          "提升魔力属性攻击力＋２"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的水滴情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7034100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7043400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060100,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 2,
+        "relic_id": 220,
+        "effect_names": [
+          "【隐士】发动绝招时，能提升血量上限",
+          "强化辉剑的魔法",
+          "每次解开魔法师塔的机关，能提升专注值上限"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的光耀情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6646100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7043400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7001502,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 0,
+        "relic_id": 2013022,
+        "effect_names": [
+          "【隐士】提升智力、信仰，但降低集中力",
+          "强化辉剑的魔法",
+          "提升魔力属性攻击力＋２"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7043400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090100,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2013112,
+        "effect_names": [
+          "强化辉剑的魔法",
+          "打倒敌人时，能累积绝招量表",
+          "打倒敌人时，除了自己恢复周围我方人物的血量"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的水滴暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 6090000,
+            "curse_id": 6820400
+          },
+          {
+            "eff_id": 6611202,
+            "curse_id": 6830300
+          },
+          {
+            "eff_id": 7043400,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2011202,
+        "effect_names": [
+          "打倒敌人时，能累积绝招量表＋１",
+          "强化魔法＋２",
+          "强化辉剑的魔法"
+        ],
+        "curse_names": [
+          "受到损伤时，会累积发狂量表",
+          "降低信仰、力气"
+        ],
+        "relic_name": "辽阔的光耀暗淡情景"
+      }
+    ],
+    "title": "小折娱乐辉剑隐"
+  }
+}
