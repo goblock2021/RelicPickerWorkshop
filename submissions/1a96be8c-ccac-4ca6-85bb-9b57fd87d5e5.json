@@ -1,0 +1,176 @@
+{
+  "id": "1a96be8c-ccac-4ca6-85bb-9b57fd87d5e5",
+  "author": "zw-gh",
+  "created_at": "2026-10-03T06:53:20Z",
+  "version": 1,
+  "issue_number": 54,
+  "data": {
+    "description": "",
+    "title": "高折叠雷枪蜗",
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7220000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7001702,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7044100,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 3,
+        "relic_id": 232,
+        "effect_names": [
+          "【复仇者】与家人并肩战斗期间，能强化自身",
+          "提升雷属性攻击力＋２",
+          "强化王城古龙信仰的祷告"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的幽静情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7370400,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7044100,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 1,
+        "relic_id": 211,
+        "effect_names": [
+          "每次打倒黑夜入侵者，能提升攻击力",
+          "出击时，武器祷告改为“雷电枪” ※仅限能使用的武器类别",
+          "强化王城古龙信仰的祷告"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的水滴情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7001702,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 0,
+        "relic_id": 208,
+        "effect_names": [
+          "强化王城古龙信仰的祷告",
+          "提升雷属性攻击力＋２",
+          "打倒敌人时，能累积绝招量表"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的火燃情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6001701,
+            "curse_id": 6820600
+          },
+          {
+            "eff_id": 6610500,
+            "curse_id": 6850900
+          }
+        ],
+        "shop": "deep-new",
+        "color": 2,
+        "relic_id": 2011222,
+        "effect_names": [
+          "强化王城古龙信仰的祷告",
+          "提升雷属性攻击力＋４",
+          "提升专注值上限"
+        ],
+        "curse_names": [
+          "受到损伤时，会累积死亡量表",
+          "使用圣杯瓶时，降低减伤率"
+        ],
+        "relic_name": "辽阔的光耀暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6001701,
+            "curse_id": 6830000
+          },
+          {
+            "eff_id": 6500500,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2010102,
+        "effect_names": [
+          "强化王城古龙信仰的祷告",
+          "提升雷属性攻击力＋４",
+          "【复仇者】发动能力时，能提升专注值上限"
+        ],
+        "curse_names": [
+          "降低力气、智力"
+        ],
+        "relic_name": "辽阔的水滴暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044100,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6001701,
+            "curse_id": 6851200
+          },
+          {
+            "eff_id": 6610700,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 3,
+        "relic_id": 2010312,
+        "effect_names": [
+          "强化王城古龙信仰的祷告",
+          "提升雷属性攻击力＋４",
+          "减少专注值消耗"
+        ],
+        "curse_names": [
+          "血量没有全满时，降低攻击力"
+        ],
+        "relic_name": "辽阔的幽静暗淡情景"
+      }
+    ]
+  }
+}
