@@ -1,0 +1,176 @@
+{
+  "id": "c163e6ee-1f2b-4871-8d13-1b79f3bbe879",
+  "author": "z1131843340-max",
+  "created_at": "2026-10-19T15:11:20Z",
+  "version": 1,
+  "issue_number": 57,
+  "data": {
+    "description": "9折叠＋牢罪",
+    "relics": [
+      {
+        "effects": [
+          {
+            "eff_id": 7031200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7044200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7370600,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 1,
+        "relic_id": 211,
+        "effect_names": [
+          "【复仇者】发动绝招时，能强化家人与我方人物",
+          "强化巨人火焰的祷告",
+          "出击时，武器祷告改为“火焰啊！” ※仅限能使用的武器类别"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的水滴情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060000,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7082600,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 1,
+        "relic_id": 211,
+        "effect_names": [
+          "强化巨人火焰的祷告",
+          "每次打倒封印监牢里的囚犯，能提升攻击力",
+          "装备三把以上类别为圣印记的武器，能提升专注值上限"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的水滴情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7060200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 7090000,
+            "curse_id": null
+          }
+        ],
+        "shop": "normal-new",
+        "color": 1,
+        "relic_id": 211,
+        "effect_names": [
+          "强化巨人火焰的祷告",
+          "每次打倒黑夜入侵者，能提升攻击力",
+          "打倒敌人时，能累积绝招量表"
+        ],
+        "curse_names": [],
+        "relic_name": "辽阔的水滴情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6611302,
+            "curse_id": 6820000
+          },
+          {
+            "eff_id": 6500500,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2010102,
+        "effect_names": [
+          "强化巨人火焰的祷告",
+          "强化祷告＋２",
+          "【复仇者】发动能力时，能提升专注值上限"
+        ],
+        "curse_names": [
+          "受到损伤时，会累积中毒量表"
+        ],
+        "relic_name": "辽阔的水滴暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6611302,
+            "curse_id": 6820100
+          },
+          {
+            "eff_id": 6090000,
+            "curse_id": 6830000
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2011102,
+        "effect_names": [
+          "强化巨人火焰的祷告",
+          "强化祷告＋２",
+          "打倒敌人时，能累积绝招量表＋１"
+        ],
+        "curse_names": [
+          "受到损伤时，会累积猩红腐败量表",
+          "降低力气、智力"
+        ],
+        "relic_name": "辽阔的水滴暗淡情景"
+      },
+      {
+        "effects": [
+          {
+            "eff_id": 7044200,
+            "curse_id": null
+          },
+          {
+            "eff_id": 6611302,
+            "curse_id": 6830000
+          },
+          {
+            "eff_id": 7120900,
+            "curse_id": null
+          }
+        ],
+        "shop": "deep-new",
+        "color": 1,
+        "relic_id": 2010102,
+        "effect_names": [
+          "强化巨人火焰的祷告",
+          "强化祷告＋２",
+          "出击时，会持有“石剑钥匙”"
+        ],
+        "curse_names": [
+          "降低力气、智力"
+        ],
+        "relic_name": "辽阔的水滴暗淡情景"
+      }
+    ],
+    "title": "巨人火小蜗"
+  }
+}
